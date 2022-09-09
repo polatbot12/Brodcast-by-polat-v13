@@ -34,7 +34,7 @@ const embed = new Discord.MessageEmbed()
 .addField("● Message", `\`\`\`${args}\`\`\``, true)
 .addField("● To", `**${c}**`, true)
 .setTimestamp()
-.setFooter("Developer: DNA | ZombieX#0001")
+.setFooter("Developer:  | POLAT BOT")
 message.channel.send(embed).then(m =>{
 setTimeout(function(){
 m.delete()
