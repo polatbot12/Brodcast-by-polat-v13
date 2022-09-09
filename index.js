@@ -16,7 +16,7 @@ const client = new Discord.Client()
 
 client.on("ready", () =>{
 console.log(`${client.user.username} is Online `)
-client.user.setActivity(`Brodcast Bot By ZombieX`, {type:"PLAYING"})
+client.user.setActivity(`Brodcast Bot By POLAT`, {type:"PLAYING"})
 })
 
 client.on("message", message =>{
