@@ -20,7 +20,7 @@ client.user.setActivity(`Brodcast Bot By POLAT`, {type:"PLAYING"})
 })
 
 client.on("message", message =>{
-if(message.content.startsWith("")) {
+if(message.content.startsWith("!bc")) {
 if(message.author.bot) return; 
 const args = message.content.split(" ").slice(" ").join(" ")
 if (!message.member.hasPermission('ADMINISTRATOR')) return message.delete();
